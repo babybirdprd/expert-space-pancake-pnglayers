@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Layer Extraction and Analysis Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Image Layer Extraction and Analysis Tool</h1>
+    <div id="image-upload">
+        <input type="file" id="file-input" accept="image/*">
+        <button id="upload-button">Upload Image</button>
+    </div>
+    <div id="image-preprocessing">
+        <h2>Image Preprocessing</h2>
+        <button id="preprocess-button">Preprocess Image</button>
+    </div>
+    <div id="visualization-tools">
+        <h2>Visualization Tools</h2>
+        <button id="visualize-button">Visualize Layers</button>
+    </div>
+    <div id="manual-adjustments">
+        <h2>Manual Adjustments</h2>
+        <button id="adjust-button">Adjust Layers</button>
+    </div>
+    <div id="advanced-tools">
+        <h2>Advanced Tools</h2>
+        <button id="advanced-button">Apply Advanced Tools</button>
+    </div>
+    <div id="history-undo">
+        <h2>History/Undo Functionality</h2>
+        <button id="undo-button">Undo Last Action</button>
+    </div>
+    <div id="automations">
+        <h2>Automations</h2>
+        <button id="automate-button">Run Automations</button>
+    </div>
+    <div id="brute-force">
+        <h2>Brute-force</h2>
+        <button id="brute-force-button">Run Brute-force</button>
+    </div>
+    <div id="entropy-display">
+        <h2>Entropy Calculation</h2>
+        <div id="entropy-result"></div>
+    </div>
+    <div id="layer-display">
+        <h2>Layer Estimation</h2>
+        <div id="layer-result"></div>
+    </div>
+    <div id="layer-separation">
+        <h2>Layer Separation</h2>
+        <div id="separated-layers"></div>
+    </div>
+    <script src="imageUpload.js"></script>
+    <script src="imagePreprocessing.js"></script>
+    <script src="visualizationTools.js"></script>
+    <script src="manualAdjustments.js"></script>
+    <script src="advancedTools.js"></script>
+    <script src="historyUndo.js"></script>
+    <script src="automations.js"></script>
+    <script src="bruteForce.js"></script>
+</body>
+</html>
